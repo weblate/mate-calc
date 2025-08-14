@@ -771,6 +771,14 @@ test_equations(void)
     //options.wordlen = 2;
     //test("¬01₂", "10₂", 0);
     //test("¬¬10₂", "10₂", 0);
+
+    /* Regression tests for crash bug with variable names + superscript + number */
+    /* These should return error instead of crashing (issue: e²3 should be invalid) */
+    test("e²3", "", PARSER_ERR_INVALID);
+    test("var²3", "", PARSER_ERR_UNKNOWN_VARIABLE);
+    test("x¹²3", "", PARSER_ERR_INVALID);
+    test("abc¹²³456", "", PARSER_ERR_UNKNOWN_VARIABLE);
+    test("test²²²1", "", PARSER_ERR_UNKNOWN_VARIABLE);
 }
 
 int

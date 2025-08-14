@@ -219,8 +219,13 @@ p_destroy_all_nodes(ParseNode* node)
     p_destroy_all_nodes(node->right);
     /* Don't call free for tokens, as they are allocated and freed in lexer. */
     /* WARNING: If node->value is freed elsewhere, please assign it NULL before calling p_destroy_all_nodes(). */
-    if(node->value)
+    /* Fix for crash in expressions like "e²3" where node->value may be invalid */
+    if(node->value && node->value != (void*)node->token)
+    {
+        /* Only free if value was dynamically allocated by parser functions */
+        /* Skip freeing if value points to token data or other non-malloc'd memory */
         free(node->value);
+    }
     free(node);
 }
 
