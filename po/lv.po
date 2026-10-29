@@ -1,26 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-calc package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # reki the human <voiceofwise1@gmail.com>, 2020
 # Rihards Priedītis <rprieditis@gmail.com>, 2025
-# 
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-calc 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-calc/issues\n"
 "POT-Creation-Date: 2022-10-28 17:41+0200\n"
-"PO-Revision-Date: 2018-03-11 16:33+0000\n"
-"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>, 2025\n"
-"Language-Team: Latvian (https://app.transifex.com/mate/teams/13566/lv/)\n"
+"PO-Revision-Date: 2026-10-25 15:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/mate-calc/lv/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lv\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #. Accessible name for the factorize button
 #: src/buttons-advanced.ui:27 src/buttons-programming.ui:1900
@@ -112,7 +114,7 @@ msgstr "Apakšraksts"
 
 #: src/buttons-advanced.ui:966
 msgid "const"
-msgstr "konst."
+msgstr "konst"
 
 #. Title of Compounding Term dialog
 #. Tooltip for the compounding term button
@@ -278,7 +280,7 @@ msgid ""
 "made at the end of each payment period. "
 msgstr ""
 "Izrēķina aizņēmuma periodiskās apmaksas apjomu, kur maksājumi tiek veikti "
-"katra maksājumu perioda beigās."
+"katra maksājumu perioda beigās "
 
 #. Periodic Payment Dialog: Label before term input
 #. Periodic Interest Rate Dialog: Label before term input
@@ -321,7 +323,7 @@ msgid ""
 "future value, over the number of compounding periods. "
 msgstr ""
 "Aprēķina periodisku procentu, kas vajadzīgs, lai palielinātu ieguldījumus "
-"nākotnes vērtībai, vairāku salikto periodu laikā."
+"nākotnes vērtībai, vairāku salikto periodu laikā. "
 
 #. Title of Straight-Line Depreciation dialog
 #: src/buttons-financial.ui:1262
@@ -350,8 +352,8 @@ msgid ""
 msgstr ""
 "Aprēķina lineāro aktīvu amortizāciju vienā periodā. Lineārā metode sadala "
 "nolietojama izmaksas vienmērīgi aktīva lietderīgās lietošanas laikā. "
-"Lietderīgās lietošanas laiks ir periodu skaits, parasti gadi, pa kuru aktīvi"
-" tiek amortizēti."
+"Lietderīgās lietošanas laiks ir periodu skaits, parasti gadi, pa kuru aktīvi "
+"tiek amortizēti. "
 
 #. Title of Sum-of-the-Years'-Digits Depreciation dialog
 #: src/buttons-financial.ui:1446
@@ -367,11 +369,11 @@ msgid ""
 "occurs in earlier periods than in later ones. The useful life is the number "
 "of periods, typically years, over which an asset is depreciated. "
 msgstr ""
-"Aprēķina nolietojuma pabalstu aktīvam noteikta laika periodā, izmantojot "
-"“gada dienu skaita” metodi. Šī amortizācijas metode paātrina vērtības "
+"Aprēķina nolietojuma pabalstu aktīvam noteikta laika periodā, izmantojot “"
+"gada dienu skaita” metodi. Šī amortizācijas metode paātrina vērtības "
 "samazinājuma koeficientu, lai vairāk nolietojuma izmaksas notiktu agrākos "
 "periodos, nekā vēlākos. Lietderīgās lietošanas laiks ir vairāki periodi, "
-"parasti gadi, pa kuru aktīvi tiek amortizēti."
+"parasti gadi, pa kuru aktīvi tiek amortizēti. "
 
 #. Title of Payment Period dialog
 #: src/buttons-financial.ui:1659
@@ -565,7 +567,7 @@ msgstr "MATE Kalkulators"
 
 #: data/mate-calc.appdata.xml.in:8
 msgid "MATE Desktop calculator"
-msgstr "MATE Darbvirsmas kalkulators "
+msgstr "MATE Darbvirsmas kalkulators"
 
 #: data/mate-calc.appdata.xml.in:10
 msgid ""
@@ -834,7 +836,7 @@ msgstr "Kuveitas dinārs"
 
 #: src/currency-manager.c:60
 msgid "Kazakhstani Tenge"
-msgstr "Kazahstānas  tenge"
+msgstr "Kazahstānas tenge"
 
 #: src/currency-manager.c:61
 msgid "Sri Lankan Rupee"
@@ -1446,7 +1448,7 @@ msgstr "1.672621898(21)×10⁻²⁷ kg"
 #. Tooltip for the Nₐ button
 #: src/math-buttons.c:1039
 msgid "Avogadro constant"
-msgstr " is referred to as Avogadro konstante"
+msgstr "Avokadro konstante"
 
 #: src/math-buttons.c:1039
 msgid "6.02214086×10²³ mol⁻¹"
@@ -1628,8 +1630,8 @@ msgid ""
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr ""
 "Jums būtu bijis jāsaņem GNU Vispārējās publiskās licences kopiju kopā ar "
-"MATE Kalkulatoru; ja tā nav noticis rakstiet Free Software Foundation, Inc.,"
-" 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+"MATE Kalkulatoru; ja tā nav noticis rakstiet Free Software Foundation, Inc., "
+"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: src/math-window.c:362
 #, c-format
@@ -1656,7 +1658,7 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  Kristaps https://launchpad.net/~retail"
+" Kristaps https://launchpad.net/~retail"
 
 #. Calculator menu
 #: src/math-window.c:523
@@ -1787,7 +1789,7 @@ msgstr "Logaritms no nulles ir nedefinēts"
 #. Translators: Error displayed when attempting to take zeroth root
 #: src/mp.c:434
 msgid "The zeroth root of a number is undefined"
-msgstr "Skaitļa nultās pakāpes sakne nav definēta."
+msgstr "Skaitļa nultās pakāpes sakne nav definēta"
 
 #. Translators: Error displayed when attempted take the factorial of a
 #. negative or complex number
@@ -1828,7 +1830,7 @@ msgid ""
 "(90°)"
 msgstr ""
 "Tangens ir nedefinēts leņķiem, kuri ir π∕2 (90°) vai tā summa ar π (180°) "
-"reizinājumu – π∕2 + kπ, kur k ir vesels skaitlis."
+"reizinājumu – π∕2 + kπ, kur k ir vesels skaitlis"
 
 #. Translators: Error displayed when inverse sine value is undefined
 #: src/mp-trigonometric.c:145
@@ -1843,7 +1845,7 @@ msgstr "Apgrieztais kosinus nav definēts ārpus intervāla [-1, 1]"
 #. Translators: Error displayed when inverse sine value is undefined
 #: src/mp-trigonometric.c:194
 msgid "Arctangent function is undefined for values i and -i"
-msgstr "Arkstangensa funkcija nav definēta vērtībām i un -i."
+msgstr "Arkstangensa funkcija nav definēta vērtībām i un -i"
 
 #. Translators: Error displayed when inverse hyperbolic cosine value is
 #. undefined
@@ -2330,7 +2332,7 @@ msgstr "tonna,tonnas"
 
 #: src/unit-manager.c:83
 msgid "Kilograms"
-msgstr "Kilograms"
+msgstr "Kilogrami"
 
 #: src/unit-manager.c:83
 #, c-format
@@ -2540,7 +2542,7 @@ msgstr "K"
 
 #: src/unit-manager.c:97
 msgid "Rankine"
-msgstr "Rankine"
+msgstr "Rankina"
 
 #: src/unit-manager.c:97
 #, c-format
